@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "omnirules-design-project",
+  "private_key_id": "299a9c2956571d27fc48919812c07736e48f1937",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCyAUSjPATOBRTQ\nETXyrpc/N6o0LEkoZcrXp2hkrc0uyXnRoju88+C6+wT+EnmM08MJL36ZGtcuf0qH\nyLw1Nis35ewOXyOA4RdeeAhsySppBw/TFYMkmNEb3TUKljs3DDwde295tgY/PkTn\n4JvvUwWUeUqJwePEkXd76dVlKcU1DhADsgf1r+B00Kj4sd+g9PE7BgLgy+JMpkeb\nT6MwXPdZeIGM8UqZFnmvi4zXRZC8VCd3AncK5hO1VOjC1c4Lka+PmMP6RHJOaHv4\nPFyHJEfUHEMOlKrzyIYbuzP3LRQ0DM2oyA0h/tLXw0Puww1IW+VcdKgxOKO50TL5\nP8EoeFSDAgMBAAECggEAUkztzD8qxYpp5g2fENaSTYNSKY80P/5Ye78GME5/aJt0\nvG0zC5kCldELrOEj2+3o5i1UbjuPtArcjc1M35ltAApJSxfH1YW9BUugMZQNDMRc\nF6+BlAEn5acwJ/Xv6PK6NLNmhjKXztPejgs2bb/H+67cvLattavAP8WMiZp3eKCC\nQgSunLgF8R3F5H6pFdsStiuhxsmVOatVBbx4DPQZ7B/i3rSAyEcQ8K9VV8OkzWeL\n1brn4xGOtAnTiAfmaH1NxoO3oLslzdAEGe0tGjIeLkh/3jwjQVe964h0iMhGnDuA\n6DnUW42D5FAlgFQV6eHBOBBuhqAQqZvc8rzq1YO02QKBgQDua7zdssM3FzoWVjG8\nVts1ETG012ogJ+dw1cgelSvSvwruOf8BCDjTkNoj+l8e5yhtRi/fr748Qu4xKGL3\nlD29WBkNmBdDpwSjgUwC6xC5T+eZL0gU/Tw+k3iV9jlvfCvf7ZgcvxMn1Yf5gENh\nDzi8HK149MvmerkBhUrdvJR4VQKBgQC/ISmzjkFEtUuO0nvVJxrwOK3Sco4WgBYu\nzhm7DbyAzO9nltgrMfS2LsbaEqZqqNJDb3IR0Xla88UIPNW3UB7ckI0Rg692iwVx\nJ/FDIiLpu3H05dRxa0Go0tl1E6zkTmwzutfVGk5k6ZQPt/ISnr4bYvX55Cyr3LCK\nnTH3d1vRdwKBgQDqYfnCjJlC0E+nY8bzGwPWcHfICzjmMbRhhZh9EDKLtImfVl5s\n+lM7ERyR3/Gg5KgmfKhVo2RFw5p7svNP5minejLu3USJmmiCAHrkJ4hCVN4eBpA7\nKhQOhFU4P12JTq2nLuCp6eF/+Hf6/G/AvAEPVLXoweatRpoXd5z4zQm8HQKBgGiZ\nI5NKdNm/RfyBoJeEcS+qNSaI3s3dh0ZSMK6308PBY/uTB/aLvlq9usG5ly2j+n5B\nTXIG650k712UvXk29czLpwhAwxPi/TVyII0W73huxuy5osv3YNWdnrh97g58BKdC\nx7+uR9zeH9OCXY5nJa8jN25suy3K9yrE4IWH4s39AoGBAJ2ftGrmdsKt/iUb9m5g\nPAehk3N4VJZCzHYLY+wPWbFPUeHI7yg5jdSZQKZfSX6PuxqZnngaJ9crj7yZ2wrp\ndYXGI23c/V7nZS7+al9eEMEK3r1q01WArH6h9npJ18T3hDNYGRmt4qQyJG7hn49f\nqsIAoPr+ZOGvQZ4Pievb0gb8\n-----END PRIVATE KEY-----\n",
+  "client_email": "cloud-files-share-input@omnirules-design-project.iam.gserviceaccount.com",
+  "client_id": "113750975803465022899",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cloud-files-share-input%40omnirules-design-project.iam.gserviceaccount.com"
+}

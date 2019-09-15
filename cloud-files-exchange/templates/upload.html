@@ -1,0 +1,72 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}Cloud Files Exchange{% endblock %}
+
+{% block navbar %}
+<div class="navbar navbar-fixed-top">
+    <!-- ... -->
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col">
+
+            <h1>Cloud Files Exchangee</h1>
+            <h2>Upload a file</h2>
+            <hr>
+
+            <script type="text/javascript">
+                function getfolder(e) {
+                  var files = e.target.files;
+                  var path = files[0].webkitRelativePath;
+                  var Folder = path.split("/");
+                  alert(Folder[0]);
+                }
+              </script>
+              
+              <!-- <input type="file" id="flup" onchange="getfolder(event)" webkitdirectory mozdirectory msdirectory odirectory directory multiple /> -->
+            <h3>{{ Message }}</h3>
+            
+
+            <form action="/upload" method="POST" enctype="multipart/form-data">
+
+                <p><input type="file" name="file" id="file" onchange="getfolder(event)"></p>
+                <button type="submit" name="submit" class="btn btn-primary">Upload</button>
+
+            </form>
+            <hr>
+
+            <div class="container">
+                <table class="table">
+                    <tr>
+                        <th></th>
+                    </tr>
+                    {% for file in FilesUploaded %}
+                    <tr>
+                        <td>{{ file[0] }}</td>
+                        <td>{{ file[1] }}</td>
+                        <td>{{ file[2] }}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+
+            <!-- <form action="/upload" method="POST" enctype="multipart/form-data"> -->
+
+            <!-- <div class="form-group"> -->
+            <!-- <label>Select file</label> -->
+            <!-- <div class="custom-file"> -->
+            <!-- <input type="file" class="custom-file-input" name="file" id="file"> -->
+            <!-- <label class="custom-file-label" for="file">Select file...</label> -->
+            <!-- </div> -->
+            <!-- </div> -->
+
+            <!-- <button type="submit" class="btn btn-primary">Upload</button> -->
+
+            <!-- </form> -->
+
+        </div>
+    </div>
+</div>
+{% endblock %}
